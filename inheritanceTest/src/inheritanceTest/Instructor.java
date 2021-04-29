@@ -1,8 +1,8 @@
 package inheritanceTest;
 
 public class Instructor extends User {
-	String instructorNumber;
-	String instructorDetail;
+	private String instructorNumber;
+	private String instructorDetail;
 
 
 	public Instructor(String instructorNumber, String instructorDetail) {
