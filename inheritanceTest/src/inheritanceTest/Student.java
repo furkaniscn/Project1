@@ -1,8 +1,8 @@
 package inheritanceTest;
 
 public class Student extends User {
-	String studentNumber;
-	String schoolName;
+	private String studentNumber;
+	private String schoolName;
 
 	public Student(String studentNumber, String schoolName) {
 		this.studentNumber = studentNumber;
