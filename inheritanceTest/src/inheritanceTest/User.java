@@ -1,11 +1,11 @@
 package inheritanceTest;
 
 public class User {
-	int id;
-	String name;
-	String lastName;
-	String email;
-	String identityNumber;
+	private int id;
+	private String name;
+	private String lastName;
+	private String email;
+	private String identityNumber;
 
 	public User(int id, String name, String lastName, String email, String identityNumber) {
 		this.id = id;
